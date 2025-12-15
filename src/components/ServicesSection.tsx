@@ -64,14 +64,14 @@ const premiumServices: Service[] = [
   },
   {
     category: "Премиум",
-    name: "Розовые готический миндаль, выкладной френч, аквариум, 3д дизайн ",
-    price: "от 8 000 ₽",
+    name: "готический миндаль, выкладной френч, аквариум цена в зависимости от длинны. ",
+    price: "от 5 000 ₽",
     image: productprem3,
   },
   {
     category: "Премиум",
-    name: "готический миндаль, выкладной френч, аквариум цена в зависимости от длинны. ",
-    price: "от 5 000 ₽",
+    name: "Готический миндаль, выкладной френч, аквариум, 3д дизайн ",
+    price: "от 8 000 ₽",
     image: productprem4,
   },
   {
@@ -193,9 +193,7 @@ const ServicesSection = () => {
           <span className="inline-flex items-center justify-center rounded-full bg-primary/10 px-6 py-2 text-xs font-semibold uppercase tracking-[0.4em] text-primary">
             Базовые услуги
           </span>
-          <p className="mt-6 text-balance text-muted-foreground md:text-lg">
-            Выверенная коллекция обязательных процедур, которые поддерживают идеальную форму и здоровье ногтей каждый день.
-          </p>
+          
         </div>
 
         {/* Grid — 10 карточек, уже отсортированы по цене */}
@@ -206,9 +204,7 @@ const ServicesSection = () => {
           <span className="inline-flex items-center justify-center rounded-full bg-primary/10 px-6 py-2 text-xs font-semibold uppercase tracking-[0.4em] text-primary">
             Премиум услуги
           </span>
-          <p className="mt-6 text-balance text-muted-foreground md:text-lg">
-            Для особых случаев и клиентов, которые ценят безупречный сервис: сложные дизайны, расширенные уходы и эксклюзивные ритуалы.
-          </p>
+          
         </div>
 
         {renderServicesGrid(premiumServices)}
