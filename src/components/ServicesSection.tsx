@@ -38,15 +38,15 @@ type Service = {
 
 const basicServices: Service[] = [
   { category: "Дизайн",       name: "Роспись на всех пальцах",                               price: "от 600 ₽",   image: product1  },
-  { category: "Наращивание",  name: "Наращивание 4–5",                                       price: "от 2 300 ₽", image: product2  },
-  { category: "Наращивание",  name: "Наращивание 6–7",                                       price: "от 3 200 ₽", image: product3  },
+  { category: "Наращивание",  name: "Наращивание 4–5 длина",                                       price: "от 2 300 ₽", image: product2  },
+  { category: "Наращивание",  name: "Наращивание 6–7 длина",                                       price: "от 3 200 ₽", image: product3  },
   { category: "Покрытие",     name: "Маникюр с покрытием гель-лак",                          price: "1 800 ₽",    image: product4  },
-  { category: "Коррекция",    name: "Коррекция 4–5",                                         price: "от 2 300 ₽", image: product5  },
-  { category: "Наращивание",  name: "Наращивание 1–3",                                       price: "от 2 300 ₽", image: product6  },
+  { category: "Коррекция",    name: "Коррекция 4–5 длина",                                         price: "от 2 300 ₽", image: product5  },
+  { category: "Наращивание",  name: "Наращивание 1–3 длина",                                       price: "от 2 300 ₽", image: product6  },
   { category: "Педикюр",      name: "Педикюр: обработка пальцев ног с гель-лаком",   price: "2 000 ₽",    image: product7  },
-  { category: "Коррекция",    name: "Коррекция 1–3",                                         price: "от 1 900 ₽", image: product8  },
+  { category: "Коррекция",    name: "Коррекция 1–3 длина",                                         price: "от 1 900 ₽", image: product8  },
   { category: "Педикюр",      name: "Педикюр с покрытием гель-лак",                          price: "2 500 ₽",    image: product9  },
-  { category: "Коррекция",    name: "Коррекция 1–3",                                         price: "от 1 900 ₽", image: product10 },
+  { category: "Коррекция",    name: "Коррекция 1–3 длина",                                         price: "от 1 900 ₽", image: product10 },
 ];
 
 const premiumServices: Service[] = [

@@ -71,7 +71,7 @@ const portfolioCategories: PortfolioCategory[] = [
   { key: "single", title: "ОДНОТОННОЕ ПОКРЫТИЕ", shots: blok1Shots },
   { key: "french", title: "ФРЕНЧ", shots: blok2Shots },
   { key: "extensions", title: "НАРАЩИВАНИЕ", shots: blok3Shots },
-  { key: "custom", title: "Авангардные формы", shots: blok4Shots },
+  { key: "custom", title: "Авангардные формы и дизайн", shots: blok4Shots },
 ];
 
 const videos = [video1, video2, video3, video4, video5, video6];
@@ -137,13 +137,13 @@ const PortfolioSection: React.FC = () => {
                     key={category.key}
                     className="group relative flex min-h-[220px] flex-col overflow-hidden rounded-[34px] border-[3px] border-primary/65 bg-black/70 shadow-[0_0_42px_rgba(255,92,158,0.26)] sm:min-h-[240px]"
                   >
-                    <div className="relative flex-1 overflow-hidden">
+                    <div className="relative flex-1 overflow-hidden bg-black/50">
                       {current ? (
                         <img
                           src={current.src}
                           alt={current.alt}
                           loading="lazy"
-                          className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.05]"
+                          className="absolute inset-0 h-full w-full object-contain object-center transition-transform duration-700 group-hover:scale-[1.05]"
                         />
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center text-white/60">
